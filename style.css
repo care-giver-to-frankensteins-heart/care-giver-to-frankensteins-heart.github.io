@@ -1,0 +1,107 @@
+ body {
+    font-family:"helvetica", sans-serif;
+    }
+
+  #wrapper {
+    max-width: 590px;
+    margin:0 auto;
+  }
+
+  h1, h2, h3{
+    font-size: 20px;
+    color: rgb(202, 203, 206);
+    font-weight: normal;
+    }
+  .name-box{
+    border: solid;
+    border-width:1px 1px 1px 1px;
+    background-color:rgb(63, 63, 64);
+    margin-right: 400px;
+    margin-bottom:30px;
+    text-align:center;
+    padding:10px;
+
+  }
+  #ember-short-intro-heading{
+    color:grey;
+      font-weight:550;
+    font-size:18px;
+    margin-top:20px;
+  }
+  #description-of-embers-background{
+    font-size:25px;
+    font-family:monospace, unset;
+    font-weight: lighter;
+    color:grey;
+  }
+
+  #description-of-embers-background p {
+    text-align: justify;
+    margin-bottom:25px;
+  }
+
+  .information-heading{
+    font-size:30px;
+    color:rgb(161, 139, 139);
+  }
+
+
+  nav ul{
+    padding-left: 0;
+    margin-bottom: 30px; 
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right:20px;
+    padding:  10px 0;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: grey;
+  }
+
+  nav ul li#contact-btn {
+    margin-right: 0;
+    float: right;
+    border: 1px solid rgb(221,117,117);
+    padding:  10px;
+
+  }
+  nav ul li#contact-btn a {
+    color: rgb(255,185,185);
+  }
+
+  footer ul{
+    margin-bottom:80px;
+  }
+  footer ul li{
+    list-style:none;
+    border:1px solid rgb(221,117,117);
+    padding:10px 0;
+    text-align:center;
+    margin-right:100px;
+    margin-left:100px;
+    margin-bottom:10px;
+   color: rgb(109,115,129);
+  }
+  h5{
+    text-align:center;
+    color:rgb(177, 177, 177);
+    font-weight:100;
+    font-style: oblique;
+    border:solid rgb(221, 177, 177);
+    border-width:0 0 1px 0;
+    padding-bottom:30px;
+  }
+  .funny-end-message{
+    border:none;
+  }
+a{
+  text-decoration: none;
+  color:rgb(255,185,185);
+}
+#contact{
+  margin-top:100px;
+}
